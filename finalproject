@@ -1,0 +1,17 @@
+import pyautogui
+import random
+
+char="01234567890abcdefghijklmnopqrstuvwxyz!@#$%^&*()"
+char_list=list(char)
+
+password=pyautogui.password("Enter Password: ")
+
+crack_password=""
+while(crack_password!=password):
+    crack_password=random.choices(char_list,k=len(password))
+
+    print(str(crack_password))
+
+    if(crack_password==list(password)):
+        print("Password Found: " +"".join(crack_password))
+        break
