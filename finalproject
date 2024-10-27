@@ -1,3 +1,8 @@
+#Lara Shammas
+#October 26, 2024
+#CYB333 Final Course Project
+#Password Cracker Tool
+
 import pyautogui
 import random
 
