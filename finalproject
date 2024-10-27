@@ -1,7 +1,7 @@
 import pyautogui
 import random
 
-char="01234567890abcdefghijklmnopqrstuvwxyz!@#$%^&*()"
+char="01234567890abcdefghijklmnopqrstuvwxyz!@#$%^&*()?"
 char_list=list(char)
 
 password=pyautogui.password("Enter Password: ")
